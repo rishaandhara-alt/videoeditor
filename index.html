@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>FrameStudio Pro — Professional Browser Video Editor</title>
+  <meta name="description" content="Professional browser-based video editing application inspired by DaVinci Resolve and CapCut with multi-track timeline, real-time effects, waveforms, and video export.">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎬</text></svg>">
+</head>
+<body>
+  <div id="app-root">
+    <!-- UI Shell hydrated dynamically by js/app.js -->
+    <div style="display:flex; height:100vh; width:100vw; align-items:center; justify-content:center; background:#0d0f14; color:#94a3b8; font-family:sans-serif; flex-direction:column; gap:12px;">
+      <div style="font-size:36px; animation: pulse 1s infinite alternate;">🎬</div>
+      <div style="font-size:16px; font-weight:600; color:#f8fafc;">Loading FrameStudio...</div>
+      <div style="font-size:12px; color:#64748b;">Initializing rendering pipeline & audio engine</div>
+    </div>
+  </div>
+
+  <!-- Main ES Module entry -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "framestudio",
+  "version": "1.0.0",
+  "description": "Professional browser-based video editing application inspired by DaVinci Resolve and CapCut",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "video-editor",
+    "davinci-resolve",
+    "capcut",
+    "timeline",
+    "canvas",
+    "web-audio"
+  ],
+  "author": "FrameStudio Team",
+  "license": "MIT"
+}
